@@ -34,11 +34,11 @@ float tempF = dht.readTemperature(true);
 
 
 //Trigger Sensor
-  if (tempC>30){
+ /* if (tempC>30){
     digitalWrite(buzzPin, HIGH);
     delay(dt);
     digitalWrite(buzzPin, LOW);
-  }
+  }*/
 
 //check if any reads failed
 if (isnan(humi) || isnan(tempC) || isnan(tempF)){
