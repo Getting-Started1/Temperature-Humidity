@@ -23,7 +23,7 @@ void setup (){
 
 void loop (){
 // delay(300000);
- delay(3000);
+ delay(2000);
 //read humidity
 float humi = dht.readHumidity();
 //read temperature as Celsius
