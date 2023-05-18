@@ -16,7 +16,7 @@ int dt=3000; //2 seconds
 
 
 void setup (){
-  Serial.begin(9600); 
+  Serial.begin(115200); 
   dht.begin();
     pinMode(buzzPin,OUTPUT);
 }
